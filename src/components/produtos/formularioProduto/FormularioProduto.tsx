@@ -216,7 +216,7 @@ function FormularioProduto() {
             <option value="" selected disabled>Selecione uma categoria</option>
             {categorias.map((categoria) => (
               <>
-                <option value={categoria.id} >{categoria.subcategoria}</option>
+                <option value={categoria.id} >{categoria.nome}</option>
               </>
             ))}
           </select>
